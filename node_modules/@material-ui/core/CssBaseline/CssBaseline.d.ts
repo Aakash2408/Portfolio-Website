@@ -4,14 +4,10 @@ import { StyledComponentProps } from '@material-ui/core/styles';
 export interface CssBaselineProps extends StyledComponentProps<never> {
   /**
    * You can wrap a node.
+   * @default null
    */
   children?: React.ReactNode;
 }
-
-/**
- * @deprecated The name of this type is misleading. `CssBaseline` implements no class at all.
- */
-export type CssBaselineClassKey = '@global';
 
 /**
  * Kickstart an elegant, consistent, and simple baseline to build upon.

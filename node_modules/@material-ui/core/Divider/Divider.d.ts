@@ -1,31 +1,81 @@
+import { OverridableStringUnion } from '@material-ui/types';
 import { OverridableComponent, OverrideProps } from '../OverridableComponent';
+
+export interface DividerPropsVariantOverrides {}
+export type DividerVariantDefaults = Record<'fullWidth' | 'inset' | 'middle', true>;
 
 export interface DividerTypeMap<P = {}, D extends React.ElementType = 'hr'> {
   props: P & {
     /**
      * Absolutely position the element.
+     * @default false
      */
     absolute?: boolean;
     /**
+     * The content of the component.
+     */
+    children?: React.ReactNode;
+    /**
+     * Override or extend the styles applied to the component.
+     */
+    classes?: {
+      /** Styles applied to the root element. */
+      root?: string;
+      /** Styles applied to the root element if `absolute={true}`. */
+      absolute?: string;
+      /** Styles applied to the root element if `variant="inset"`. */
+      inset?: string;
+      /** Styles applied to the root element if `variant="fullWidth"`. */
+      fullWidth?: string;
+      /** Styles applied to the root element if `light={true}`. */
+      light?: string;
+      /** Styles applied to the root element if `variant="middle"`. */
+      middle?: string;
+      /** Styles applied to the root element if `orientation="vertical"`. */
+      vertical?: string;
+      /** Styles applied to the root element if `flexItem={true}`. */
+      flexItem?: string;
+      /** Styles applied to the root element if divider have text. */
+      withChildren?: string;
+      /** Styles applied to the root element if divider have text and `orientation="vertical"`. */
+      withChildrenVertical?: string;
+      /** Styles applied to the root element if `textAlign="right" orientation="horizontal"`. */
+      textAlignRight?: string;
+      /** Styles applied to the root element if `textAlign="left" orientation="horizontal"`. */
+      textAlignLeft?: string;
+      /** Styles applied to the span children element if `orientation="horizontal"`. */
+      wrapper?: string;
+      /** Styles applied to the span children element if `orientation="vertical"`. */
+      wrapperVertical?: string;
+    };
+    /**
      * If `true`, a vertical divider will have the correct height when used in flex container.
      * (By default, a vertical divider will have a calculated height of `0px` if it is the child of a flex container.)
+     * @default false
      */
     flexItem?: boolean;
     /**
      * If `true`, the divider will have a lighter color.
+     * @default false
      */
     light?: boolean;
     /**
      * The divider orientation.
+     * @default 'horizontal'
      */
     orientation?: 'horizontal' | 'vertical';
     /**
-     * The variant to use.
+     * The text alignment.
+     * @default 'center'
      */
-    variant?: 'fullWidth' | 'inset' | 'middle';
+    textAlign?: 'center' | 'right' | 'left';
+    /**
+     * The variant to use.
+     * @default 'fullWidth'
+     */
+    variant?: OverridableStringUnion<DividerVariantDefaults, DividerPropsVariantOverrides>;
   };
   defaultComponent: D;
-  classKey: DividerClassKey;
 }
 
 /**
@@ -41,7 +91,7 @@ export interface DividerTypeMap<P = {}, D extends React.ElementType = 'hr'> {
  */
 declare const Divider: OverridableComponent<DividerTypeMap>;
 
-export type DividerClassKey = 'root' | 'absolute' | 'inset' | 'light' | 'middle' | 'vertical';
+export type DividerClassKey = keyof NonNullable<DividerTypeMap['props']['classes']>;
 
 export type DividerProps<
   D extends React.ElementType = DividerTypeMap['defaultComponent'],

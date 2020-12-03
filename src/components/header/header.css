@@ -7,7 +7,7 @@
   color: white;
 }
 .header-section {
-  background: #16151C;
+  background: #000000;
 }
 .header-wrapper {
   position: relative;
@@ -19,8 +19,11 @@
   bottom: 20px;
   text-align: center;
   width: 100%;
+  
 }
-
+.down{
+  background-color:"#FF0000" !important;
+}
 .header h6 {
   font-weight: 300;
   text-transform: uppercase;

@@ -1,7 +1,13 @@
 import React, {Component} from 'react';
 import Fab from '@material-ui/core/Fab';
+import  { BrowserRouter as Router, Route ,Link}  from 'react-router-dom';
+import Button from '@material-ui/core/Button';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import {PDFDownloadLink} from  '@react-pdf/renderer';
+import Download from '@axetroy/react-download';
+import uploadedFileLink from "./Aakash's_Resume.pdf";
 import './header.css';
+import color from 'material-ui/colors/amber';
 const scrollTo = require('scroll-to');
 
 
@@ -43,12 +49,22 @@ class HeaderComponent extends Component {
             <div className="header">
                 <h3>Aakash Sangwan</h3>
                 <h6>JavaScript Developer </h6>
+                <div className="resumesection">
+                <a href={"https://docs.google.com/document/d/1AE-93M5oz5rHCTG1Gti9IQMFQ4dwgjIkB2kJ1bxLYss/edit?usp=sharing"} style={{ textDecoration: 'none', color:"white" }}  target="_blank" rel="noopener noreferrer" download="Aakash's_Resume.pdf">
+   <Button variant="contained" color="secondary">
+      {/* <i className="fas fa-download"/> */}
+      Resume
+   </Button>
+</a>
+                
+                </div>
             </div>
             <div className="scroll-down-btn">
-              <Fab mini={true} backgroundColor="#a80202" onClick={this.onScrollToIntro.bind(this)}>
-               <KeyboardArrowDownIcon/>
+              <Fab className="MuiFab-secondary MuiFab-sizeSmall">
+               <KeyboardArrowDownIcon onClick={this.onScrollToIntro.bind(this)}/>
               </Fab>
             </div>
+
 
           </div>
         );
