@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './index.scss'
-import TypedText from "../TypedText";
+
 import SocialLinks from "../SocialLinks";
 import Info from "../Info";
 import Skills from "../Skills";
@@ -20,15 +20,11 @@ const Profile = () => {
                 <div className="profile__title">
                     Aakash Sangwan
                 </div>
-                <TypedText
-                  dataText={
-                      [
-                          'Freelancer',
-                          'Frontend Development',
-                          'Backend Development'
-                      ]
-                  }
-                />
+               
+
+
+
+               
                 <SocialLinks/>
                 <Info icon="location">
                     Haryana/India
