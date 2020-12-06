@@ -17,7 +17,7 @@ const SocialLinks = () => {
                 type={'telegram'}
             />
             <SocialLinks.Link
-                url={'/'}
+                url={'mailto:aakashsangwan024@gmail.com'}
                 type={'google'}
             />
         </div>

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dbd17bb.chunk.css",
+    "main.js": "/static/js/main.3672b9c8.chunk.js",
+    "main.js.map": "/static/js/main.3672b9c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.13dced46.js",
+    "runtime-main.js.map": "/static/js/runtime-main.13dced46.js.map",
+    "static/js/2.9c70f4c1.chunk.js": "/static/js/2.9c70f4c1.chunk.js",
+    "static/js/2.9c70f4c1.chunk.js.map": "/static/js/2.9c70f4c1.chunk.js.map",
+    "static/js/3.7a4a1160.chunk.js": "/static/js/3.7a4a1160.chunk.js",
+    "static/js/3.7a4a1160.chunk.js.map": "/static/js/3.7a4a1160.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9dbd17bb.chunk.css.map": "/static/css/main.9dbd17bb.chunk.css.map",
+    "static/js/2.9c70f4c1.chunk.js.LICENSE.txt": "/static/js/2.9c70f4c1.chunk.js.LICENSE.txt",
+    "static/media/firebase.8896e25c.png": "/static/media/firebase.8896e25c.png",
+    "static/media/js.e35fa00e.png": "/static/media/js.e35fa00e.png",
+    "static/media/ngrx.b49f3c62.png": "/static/media/ngrx.b49f3c62.png",
+    "static/media/node.a8c363ae.png": "/static/media/node.a8c363ae.png",
+    "static/media/react.ef20e673.png": "/static/media/react.ef20e673.png",
+    "static/media/redux.4516fe25.jpg": "/static/media/redux.4516fe25.jpg",
+    "static/media/vue.17c4554a.jpeg": "/static/media/vue.17c4554a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13dced46.js",
+    "static/js/2.9c70f4c1.chunk.js",
+    "static/css/main.9dbd17bb.chunk.css",
+    "static/js/main.3672b9c8.chunk.js"
+  ]
+}
