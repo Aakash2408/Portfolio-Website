@@ -21,7 +21,14 @@ const Profile = () => {
                     Aakash Sangwan
                 </div>
                
-
+                <TypedText
+                  dataText={
+                      [
+                          'Freelancer',
+                          'Frontend Developer',
+                          'Backend Developer'
+                      ]
+                  }/>
 
 
                
