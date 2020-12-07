@@ -1,7 +1,4 @@
-# Here is the live demo <a href="https://emrebaskan.netlify.app/" style="font-size: 40px">CLICK TO SEE DEMO</a>
 
-![alt-text](https://github.com/TheCoderDream/react-portfolio/blob/main/Screenshot_5.png)
-![alt-text](https://github.com/TheCoderDream/react-portfolio/blob/main/Screenshot_6.png)
 
 # Getting Started with Create React App
 
