@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Portfolio
-
+![npm](https://img.shields.io/npm/v/npm)
 
 # Getting Started with Create React App
 
