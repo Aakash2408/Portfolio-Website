@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 # Portfolio
 ![npm](https://img.shields.io/npm/v/npm)
+![alt-text](https://user-images.githubusercontent.com/47134609/101330338-7be93e80-3898-11eb-8f3b-297d5e095996.png)'
+![alt-text](https://user-images.githubusercontent.com/47134609/101330357-81468900-3898-11eb-8859-91942f6f24be.png)
+![alt-text](https://user-images.githubusercontent.com/47134609/101330397-8dcae180-3898-11eb-934f-009d6a9e6fc6.png)
+s
 
 # Getting Started with Create React App
 
@@ -20,7 +24,7 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.\ 
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
