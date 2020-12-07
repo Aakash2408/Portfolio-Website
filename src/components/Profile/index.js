@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
 import './index.scss'
-
+import TypedText from "../TypedText";
 import SocialLinks from "../SocialLinks";
 import Info from "../Info";
 import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
+import MyPDF from './Aakash_Resume.pdf';
 
 const Profile = () => {
     const { backgroundImage, type } = useContext(ThemeContext);
@@ -20,7 +21,6 @@ const Profile = () => {
                 <div className="profile__title">
                     Aakash Sangwan
                 </div>
-               
                 <TypedText
                   dataText={
                       [
@@ -28,10 +28,8 @@ const Profile = () => {
                           'Frontend Developer',
                           'Backend Developer'
                       ]
-                  }/>
-
-
-               
+                  }
+                />
                 <SocialLinks/>
                 <Info icon="location">
                     Haryana/India
@@ -39,12 +37,12 @@ const Profile = () => {
                 <Skills />
             </div>
             <div className="profile__contact">
-                <a href="https://drive.google.com/file/d/1rzAuF9qNB0ZqHMFamNG_b00bW2oKoAya/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href={MyPDF} target="_blank" rel="noreferrer" download='Aakash_Resume.pdf'>
                         <span>
                             Download CV
                         </span>
                 </a>
-                <a href="mailto:3mr3baskan@gmail.com">
+                <a href="mailto:aakashsangwan024@gmail.com">
                         <span>
                             Contact Me
                         </span>

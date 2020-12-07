@@ -2,7 +2,7 @@ import { useState, useContext, useEffect } from 'react';
 import {ThemeContext} from "../context/ThemeContext";
 
 export function useAnimation () {
-    // const { type } = useContext(ThemeContext);
+    const { type } = useContext(ThemeContext);
     const [ animation, setAnimation] = useState('')
     const [ timeoutId, setTimeoutId] = useState(null)
 
@@ -13,7 +13,7 @@ export function useAnimation () {
         // setTimeoutId(
         //     setTimeout(() => setAnimation(''), 500)
         // );
-    });
+    }, [type]);
 
 
     return {

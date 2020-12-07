@@ -38,7 +38,7 @@ const Resume = () => {
             <ResumeItem
                 date={'2018 – 2022'}
                 title={'USICT-GGSIPU'}
-                company={'New Delhi'}
+                company={'Turkey'}
                 logo={'https://img.collegepravesh.com/2015/09/GGSIPU-Logo.png'}
             >
                 Bachelor's  of Technology - Computer Science

@@ -39,8 +39,8 @@ const ContactForm = () => {
         async onSubmit(values) {
             try {
                 await emaijs.send(
-                    'gmail',
-                    'contact-form',
+                    'gmail_id',
+                    'contact_form',
                     values,
                     'user_U0KEbRZ9w5S9K0xEoQZQS'
                     );
@@ -91,6 +91,5 @@ const ContactForm = () => {
     );
 };
 
-
-
 export default ContactForm;
+

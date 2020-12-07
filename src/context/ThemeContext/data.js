@@ -5,6 +5,7 @@ import js from '../../assets/js.png';
 import redux from '../../assets/redux.jpg';
 import firebase from '../../assets/firebase.png';
 import vue from '../../assets/vue.jpeg';
+import mongodb from "../../assets/mongoDB.png"
 
 export const THEMES = {
     'react' : {
@@ -44,9 +45,9 @@ export const THEMES = {
         primaryColor: '#764ABD',
         color: '#1E1E1E'
     },
-    'ngrx': {
-        backgroundImage: ngrx,
-        linearGradient: createLinearGradient('#F80090', '#242A31'),
+    'mongodb': {
+        backgroundImage: mongodb,
+        linearGradient: createLinearGradient('#4DB33D', '#3F3E42'),
         primaryColor: '#F80090',
         color: '#242A31'
     }

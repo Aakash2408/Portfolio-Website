@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add reactstrap
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -14,12 +14,8 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: /home/aakash/.cache/yarn/v6/npm-material-ui-colors-1.0.0-b9824ca9c165199c67218b1b5cc5ab89712a8b1c-integrity/node_modules/material-ui-colors/.yarn-metadata.json: Unexpected end of JSON input
-      at JSON.parse (<anonymous>)
-      at /usr/share/yarn/lib/cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (/usr/share/yarn/lib/cli.js:310:30)
-      at /usr/share/yarn/lib/cli.js:321:13
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
 
 npm manifest: 
   {
@@ -35,6 +31,7 @@ npm manifest:
       "@testing-library/react": "^11.1.0",
       "@testing-library/user-event": "^12.1.10",
       "emailjs-com": "^2.6.3",
+      "firebase-tools": "^8.17.0",
       "formik": "^2.2.2",
       "ionicons": "^2.0.1",
       "material-icons": "^0.3.1",

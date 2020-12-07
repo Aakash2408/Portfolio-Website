@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { projects } from './data';
 import Title from "../common/Title";
 import WorkItem from "./Item";
-import WorksMenu from "./Menu";
+import WorksMenu from "./Menu/index";
 
 const initalState = projects.filter(p => p.type === 'react');
 

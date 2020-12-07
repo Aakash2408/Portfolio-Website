@@ -14,7 +14,7 @@ const About = () => {
                         Hi, I am Aakash Sangwan
                     </strong>
                     <p>
-                        Self-taught, self-driven, passionate learner and developer focusing on  React, Vue, Node, and Firebase Technologies. Looking forward to working with ingenious teams on challenging projects.
+                        Self-taught, self-driven, passionate learner and developer focusing on Angular, React, Vue, Node, and Java Technologies. Looking forward to working with ingenious teams on challenging projects.
                         <br/> <br/>
                         I’m an easy going person that works well with everyone. I enjoy being around different types of people and I like to always challenge myself to improve at everything I do.
                         <br/><br/>

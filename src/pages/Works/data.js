@@ -69,6 +69,24 @@ export const projects = [
         sourceCodeLink: 'https://github.com/Aakash2408/Memory-Game',
         demoLink: 'https://aakash2408.github.io/Memory-Game/',
         type: 'js'
+    },
+    {
+       title:'BBQ-SERVICE WEB-APP',
+       images:[
+           'https://user-images.githubusercontent.com/47134609/101315871-6fa5b700-3881-11eb-8c39-a8a709ffd53b.png'
+       ],
+       sourceCodeLink:'https://github.com/Aakash2408/BBQ-Delivery-Web',
+       type:'vue'
+
+    },
+    {
+        title:'Fireworks Launcher',
+        images:['https://user-images.githubusercontent.com/47134609/101317151-efcd1c00-3883-11eb-9592-fbdf6dae68fe.png'],
+        sourceCodeLink:'https://github.com/Aakash2408/Firework-Launcher',
+        demoLink:'https://aakash2408.github.io/Firework-Launcher/',
+        type:'js'
+
     }
+
    
 ]

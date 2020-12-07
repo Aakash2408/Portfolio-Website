@@ -1,5 +1,5 @@
 {
-  "name": "personal-website",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^4.5.3",
     "emailjs-com": "^2.6.3",
     "firebase-tools": "^8.17.0",
     "formik": "^2.2.2",
@@ -26,6 +27,7 @@
     "react-router-hash-link": "^2.2.2",
     "react-scripts": "4.0.0",
     "react-transition-group": "^2.9.0",
+    "reactstrap": "^8.7.1",
     "rxjs": "^6.3.3",
     "scroll-to": "0.0.2",
     "web-vitals": "^0.2.4"
