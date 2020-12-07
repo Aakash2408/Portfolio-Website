@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # Portfolio-Website/Template
 
-![npm](https://img.shields.io/npm/v/npm) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aakash2408/Portfolio-Website) ![Lines of code](https://img.shields.io/tokei/lines/github/aakash2408/Portfolio-Website)
+![npm](https://img.shields.io/npm/v/npm) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aakash2408/Portfolio-Website) 
 
 ![alt-text](https://user-images.githubusercontent.com/47134609/101330338-7be93e80-3898-11eb-8f3b-297d5e095996.png)'
 ![alt-text](https://user-images.githubusercontent.com/47134609/101330357-81468900-3898-11eb-8859-91942f6f24be.png)
