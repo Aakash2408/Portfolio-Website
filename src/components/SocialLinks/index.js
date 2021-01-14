@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 type={'linkedin'}
             />
             <SocialLinks.Link
-                url={'https://t.me/finik'}
+                url={'https://t.me/finiak'}
                 type={'telegram'}
             />
             <SocialLinks.Link

@@ -6,7 +6,7 @@ export const projects = [
             'https://user-images.githubusercontent.com/47134609/101288383-443cb100-381c-11eb-9ac7-31c3faaf8f4a.png',
             'https://user-images.githubusercontent.com/47134609/101288386-46067480-381c-11eb-9545-628ae069ac0c.png'
         ],
-        sourceCodeLink: 'https://github.com/Aakash2408/Covid-19-Stats',
+        sourceCodeLink: 'https://pathfinding-visualizer-31d8e.web.app/',
         demoLink: 'pathfinding-visualizer-31d8e.web.app/',
         type: 'react'
     },
@@ -30,7 +30,7 @@ export const projects = [
             'https://user-images.githubusercontent.com/47134609/101288801-73542200-381e-11eb-944b-ee78f8f9abfc.png'
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
-        demoLink: 'http://sincere-wind.surge.sh/',
+        demoLink: 'https://covid-19-89bee.firebaseapp.com/',
         type: 'react'
     },
     {
