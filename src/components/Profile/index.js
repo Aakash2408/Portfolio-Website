@@ -6,7 +6,7 @@ import Info from "../Info";
 import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
-import MyPDF from './Aakash_Resume.pdf';
+// import MyPDF from './Aakash_Resume.pdf';
 
 const Profile = () => {
     const { backgroundImage, type } = useContext(ThemeContext);
@@ -37,7 +37,7 @@ const Profile = () => {
                 <Skills />
             </div>
             <div className="profile__contact">
-                <a href="https://drive.google.com/file/d/11oVKEzakqkw8sOA8oTV6NCfzL9HlQ8zy/view?usp=sharing" target="_blank" rel="noreferrer" download='Aakash_Resume.pdf'>
+                <a href="https://drive.google.com/file/d/1mLTwbjepQAdwrBhpt4mXb9QMJ_blZD06/view?usp=sharing" target="_blank" rel="noreferrer" >
                         <span>
                             Download CV
                         </span>
