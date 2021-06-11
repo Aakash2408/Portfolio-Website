@@ -37,7 +37,7 @@ const Profile = () => {
                 <Skills />
             </div>
             <div className="profile__contact">
-                <a href={MyPDF} target="_blank" rel="noreferrer" download='Aakash_Resume.pdf'>
+                <a href="https://drive.google.com/file/d/11oVKEzakqkw8sOA8oTV6NCfzL9HlQ8zy/view?usp=sharing" target="_blank" rel="noreferrer" download='Aakash_Resume.pdf'>
                         <span>
                             Download CV
                         </span>
